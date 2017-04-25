@@ -1,8 +1,8 @@
 $(function() {
 
     $('a').click(function() {
-        console.log($(this).attr('href'));
-        console.log($($(this).attr('href')).offset().top);
+        // console.log($(this).attr('href'));
+        // console.log($($(this).attr('href')).offset().top);
         $('html, body').animate({
             scrollTop: $($(this).attr('href')).offset().top
         }, 500);

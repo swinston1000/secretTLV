@@ -1,6 +1,7 @@
 $(function() {
 
   $('a').click(function() {
+    //yo
     //hello
     // console.log($(this).attr('href'));
     // console.log($($(this).attr('href')).offset().top);
